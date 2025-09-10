@@ -1,0 +1,6 @@
+/home/tian/ROS_ws/build/ros2_basis/CMakeFiles/uninstall.dir
+/home/tian/ROS_ws/build/ros2_basis/CMakeFiles/ros2_basis_uninstall.dir
+/home/tian/ROS_ws/build/ros2_basis/CMakeFiles/first_node.dir
+/home/tian/ROS_ws/build/ros2_basis/CMakeFiles/test.dir
+/home/tian/ROS_ws/build/ros2_basis/CMakeFiles/edit_cache.dir
+/home/tian/ROS_ws/build/ros2_basis/CMakeFiles/rebuild_cache.dir

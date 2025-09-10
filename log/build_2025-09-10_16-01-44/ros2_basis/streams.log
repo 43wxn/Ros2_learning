@@ -1,0 +1,32 @@
+[0.018s] Invoking command in '/home/tian/ROS_ws/build/ros2_basis': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/ros2_basis -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/ros2_basis
+[0.118s] -- The C compiler identification is GNU 13.3.0
+[0.211s] -- The CXX compiler identification is GNU 13.3.0
+[0.242s] -- Detecting C compiler ABI info
+[0.400s] -- Detecting C compiler ABI info - done
+[0.422s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.422s] -- Detecting C compile features
+[0.423s] -- Detecting C compile features - done
+[0.443s] -- Detecting CXX compiler ABI info
+[0.737s] -- Detecting CXX compiler ABI info - done
+[0.750s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.751s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.767s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.768s]   By not providing "Findrclcpp.cmake" in CMAKE_MODULE_PATH this project has
+[0.768s]   asked CMake to find a package configuration file provided by "rclcpp", but
+[0.768s]   CMake did not find one.
+[0.768s] 
+[0.768s]   Could not find a package configuration file provided by "rclcpp" with any
+[0.768s]   of the following names:
+[0.768s] 
+[0.768s]     rclcppConfig.cmake
+[0.768s]     rclcpp-config.cmake
+[0.769s] 
+[0.769s]   Add the installation prefix of "rclcpp" to CMAKE_PREFIX_PATH or set
+[0.769s]   "rclcpp_DIR" to a directory containing one of the above files.  If "rclcpp"
+[0.769s]   provides a separate development package or SDK, be sure it has been
+[0.769s]   installed.
+[0.769s] 
+[0.769s] [0m
+[0.769s] -- Configuring incomplete, errors occurred!
+[0.775s] Invoked command in '/home/tian/ROS_ws/build/ros2_basis' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/ros2_basis -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/ros2_basis

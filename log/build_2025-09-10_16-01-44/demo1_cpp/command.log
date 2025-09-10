@@ -1,0 +1,1 @@
+Invoking command in '/home/tian/ROS_ws/build/demo1_cpp': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/demo1_cpp -- -j16 -l16
