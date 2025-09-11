@@ -14,3 +14,4 @@
 /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake
 /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.xml
 /home/tian/ROS_ws/install/topic_cpp/lib/topic_cpp/topic_publisher_01
+/home/tian/ROS_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber

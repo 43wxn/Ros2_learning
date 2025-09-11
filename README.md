@@ -143,6 +143,23 @@ class TopicPublisher:public rclcpp::Node {
 };
 ```
 
+## 创建订阅者
+```cpp
+template<typename MessageT , typename CallbackT , typename AllocatorT , typename CallbackMessageT , typename SubscriptionT , typename MessageMemoryStrategyT >
+std::shared_ptr< SubscriptionT > rclcpp::Node::create_subscription 	( 	const std::string &  	topic_name,
+		const rclcpp::QoS &  	qos,
+		CallbackT &&  	callback,
+		const SubscriptionOptionsWithAllocator< AllocatorT > &  	options = SubscriptionOptionsWithAllocator<AllocatorT>(),
+		typename MessageMemoryStrategyT::SharedPtr  	msg_mem_strat = (      MessageMemoryStrategyT::create_default()    ) 
+	) 	
+```
+创建订阅者时 只需要调用订阅者节点的 `create_subscription<message_type>("topic_name",qos,call_back())` 即可 
+其中`message_type` 例如 `std_msgs::msg::String`
+
+`qos` 消息队列深度 一般为10
+
+`call_back()` 回调函数和发布者的回调函数一样 必须是可调用的对象 一定是一个对象！对象！对象！ 
+
 
  
 

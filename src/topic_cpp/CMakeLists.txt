@@ -26,8 +26,16 @@ ament_package()
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> usr >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 add_executable(topic_publisher_01 src/topic_publisher.cpp)
-
+add_executable(topic_subscriber src/topic_subscrib.cpp)
 
 ament_target_dependencies(topic_publisher_01 rclcpp std_msgs)
+ament_target_dependencies(topic_subscriber rclcpp std_msgs)
+#可以写成
+#foreach(target topic_publisher_01 topic_subscriber)
+#  ament_target_dependencies(${target} rclcpp std_msgs)
+#endforeach()
+#这样就相当于循环调用 去将 topic_publisher_01 和 topic_subscriber 分别与 rclcpp 和 std_msgs 链接
+
 
 install(TARGETS topic_publisher_01 DESTINATION lib/${PROJECT_NAME})
+install(TARGETS topic_subscriber DESTINATION lib/${PROJECT_NAME})

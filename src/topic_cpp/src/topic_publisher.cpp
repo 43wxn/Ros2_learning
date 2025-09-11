@@ -11,7 +11,7 @@ class TopicPublisher:public rclcpp::Node {
             RCLCPP_INFO_STREAM(this->get_logger(), name << " 节点已创建");
             command_publisher = this->create_publisher<std_msgs::msg::String>("command", 10);
             timer = this->create_wall_timer(std::chrono::milliseconds(500), [this]()
-                                            { this->timer_callback(); });
+                                            { this->timer_callback(); });//发布者的回调函数用来发布数据
         }
 
     private:

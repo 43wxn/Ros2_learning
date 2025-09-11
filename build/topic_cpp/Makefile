@@ -210,6 +210,19 @@ topic_publisher_01/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_publisher_01.dir/build.make CMakeFiles/topic_publisher_01.dir/build
 .PHONY : topic_publisher_01/fast
 
+#=============================================================================
+# Target rules for targets named topic_subscriber
+
+# Build rule for target.
+topic_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 topic_subscriber
+.PHONY : topic_subscriber
+
+# fast build rule for target.
+topic_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscriber.dir/build.make CMakeFiles/topic_subscriber.dir/build
+.PHONY : topic_subscriber/fast
+
 src/topic_publisher.o: src/topic_publisher.cpp.o
 .PHONY : src/topic_publisher.o
 
@@ -234,6 +247,30 @@ src/topic_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_publisher_01.dir/build.make CMakeFiles/topic_publisher_01.dir/src/topic_publisher.cpp.s
 .PHONY : src/topic_publisher.cpp.s
 
+src/topic_subscrib.o: src/topic_subscrib.cpp.o
+.PHONY : src/topic_subscrib.o
+
+# target to build an object file
+src/topic_subscrib.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscriber.dir/build.make CMakeFiles/topic_subscriber.dir/src/topic_subscrib.cpp.o
+.PHONY : src/topic_subscrib.cpp.o
+
+src/topic_subscrib.i: src/topic_subscrib.cpp.i
+.PHONY : src/topic_subscrib.i
+
+# target to preprocess a source file
+src/topic_subscrib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscriber.dir/build.make CMakeFiles/topic_subscriber.dir/src/topic_subscrib.cpp.i
+.PHONY : src/topic_subscrib.cpp.i
+
+src/topic_subscrib.s: src/topic_subscrib.cpp.s
+.PHONY : src/topic_subscrib.s
+
+# target to generate assembly for a file
+src/topic_subscrib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscriber.dir/build.make CMakeFiles/topic_subscriber.dir/src/topic_subscrib.cpp.s
+.PHONY : src/topic_subscrib.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... topic_cpp_uninstall"
 	@echo "... uninstall"
 	@echo "... topic_publisher_01"
+	@echo "... topic_subscriber"
 	@echo "... src/topic_publisher.o"
 	@echo "... src/topic_publisher.i"
 	@echo "... src/topic_publisher.s"
+	@echo "... src/topic_subscrib.o"
+	@echo "... src/topic_subscrib.i"
+	@echo "... src/topic_subscrib.s"
 .PHONY : help
 
 

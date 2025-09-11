@@ -1,0 +1,51 @@
+[0.012s] Invoking command in '/home/tian/ROS_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/topic_cpp -- -j16 -l16
+[0.050s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.240s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.266s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.272s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.401s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.468s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.485s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.587s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.587s] -- Configured cppcheck include dirs: 
+[0.587s] -- Configured cppcheck exclude dirs and/or files: 
+[0.587s] -- Added test 'lint_cmake' to check CMake code style
+[0.588s] -- Added test 'uncrustify' to check C / C++ code style
+[0.588s] -- Configured uncrustify additional arguments: 
+[0.588s] -- Added test 'xmllint' to check XML markup files
+[0.591s] -- Configuring done (0.5s)
+[0.607s] -- Generating done (0.0s)
+[0.613s] -- Build files have been written to: /home/tian/ROS_ws/build/topic_cpp
+[0.659s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_subscriber.dir/src/topic_subscrib.cpp.o[0m
+[0.666s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher.cpp.o[0m
+[4.192s] [ 75%] [32m[1mLinking CXX executable topic_publisher_01[0m
+[4.381s] [ 75%] Built target topic_publisher_01
+[6.515s] [100%] [32m[1mLinking CXX executable topic_subscriber[0m
+[6.728s] [100%] Built target topic_subscriber
+[6.745s] Invoked command in '/home/tian/ROS_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/topic_cpp -- -j16 -l16
+[6.746s] Invoking command in '/home/tian/ROS_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/topic_cpp
+[6.754s] -- Install configuration: ""
+[6.754s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
+[6.754s] -- Installing: /home/tian/ROS_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
+[6.754s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh
+[6.754s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv
+[6.754s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/environment/path.sh
+[6.754s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv
+[6.754s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/local_setup.bash
+[6.754s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/local_setup.sh
+[6.755s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh
+[6.755s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv
+[6.755s] -- Installing: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.dsv
+[6.755s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp
+[6.755s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake
+[6.755s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake
+[6.755s] -- Up-to-date: /home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.xml
+[6.755s] -- Installing: /home/tian/ROS_ws/install/topic_cpp/lib/topic_cpp/topic_publisher_01
+[6.756s] -- Set non-toolchain portion of runtime path of "/home/tian/ROS_ws/install/topic_cpp/lib/topic_cpp/topic_publisher_01" to ""
+[6.756s] -- Installing: /home/tian/ROS_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber
+[6.761s] -- Set non-toolchain portion of runtime path of "/home/tian/ROS_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber" to ""
+[6.763s] Invoked command in '/home/tian/ROS_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/topic_cpp
