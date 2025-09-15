@@ -1,0 +1,6 @@
+msg/RobotPose.idl
+msg/RobotPose.msg
+msg/RobotStatus.idl
+msg/RobotStatus.msg
+srv/MoveRobot.idl
+srv/MoveRobot.srv

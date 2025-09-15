@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/tian/ROS_ws/src/interfaces:msg/RobotPose.msg",
+    "/home/tian/ROS_ws/src/interfaces:msg/RobotStatus.msg",
+    "/home/tian/ROS_ws/src/interfaces:srv/MoveRobot.srv"
+  ]
+}

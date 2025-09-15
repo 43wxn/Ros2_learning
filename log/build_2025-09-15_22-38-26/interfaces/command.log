@@ -1,0 +1,2 @@
+Invoking command in '/home/tian/ROS_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/interfaces
+Invoked command in '/home/tian/ROS_ws/build/interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/interfaces

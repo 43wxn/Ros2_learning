@@ -201,6 +201,20 @@ int32[] partial_sequence
 ## 创建客户端
 见src/service_cpp/src/client.cpp
 
+# 自定义消息接口--->创建消息包
+`ros2 pkg create example_ros2_interfaces --build-type ament_cmake --dependencies rosidl_default_generators geometry_msgs`
+包名：example_ros2_interfaces
+构建系统：ament_cmake
+依赖：rosidl_default_generators---->这个是ros2中将.msg/.srv.action文件转化为.hpp头文件的工具包 ；geometry_msgs 这个是ros2自带的消息包 依赖了这个 在我的自定义消息中就可以直接调用这个消息包里面的消息接口
+**消息包的src文件夹可以删去 只需要创建msg/srv/action文件夹分别放置话题/服务/动作的消息接口文件就行**
+
+***注意***
+1.在package.xml里面需要写<member_of_group>rosidl_interface_packages</member_of_group> 用来告诉colcon和rosdep 这个功能包是一个消息包 用来生成消息接口
+2.在CMakeList.txt里面写 rosidl_generate_interfaces()函数用来调用工具包自动生成消息头文件
+
+`ros2 interface list` 查看接口列表
+
+`ros2 interface show <消息包名>/{msg,srv,action}/<消息名称>`    查看某一个消息内容 其中的<消息名称>就是.msg/.srv/.action文件的文件名字
 
  
 

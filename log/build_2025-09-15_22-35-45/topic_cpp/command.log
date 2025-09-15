@@ -1,0 +1,4 @@
+Invoking command in '/home/tian/ROS_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/topic_cpp -- -j16 -l16
+Invoked command in '/home/tian/ROS_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/topic_cpp -- -j16 -l16
+Invoking command in '/home/tian/ROS_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/topic_cpp
+Invoked command in '/home/tian/ROS_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/topic_cpp

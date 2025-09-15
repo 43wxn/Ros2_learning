@@ -1,0 +1,17 @@
+[0.021s] Invoking command in '/home/tian/ROS_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/interfaces
+[0.039s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.289s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.337s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.338s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.744s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.744s]   Packages installing interfaces must include
+[0.745s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.745s]   package.xml
+[0.745s] Call Stack (most recent call first):
+[0.745s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.745s] 
+[0.745s] [0m
+[0.745s] -- Configuring incomplete, errors occurred!
+[0.756s] Invoked command in '/home/tian/ROS_ws/build/interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/interfaces

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/srv/MoveRobot_Request",
+      "fields": [
+        {
+          "name": "distance",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/srv/MoveRobot_Request",
+      "hash_string": "RIHS01_fdf7047e1cae3ae665bb81299be502b636174beed11c17761a1467f0c67fa4f8"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "interfaces/srv/MoveRobot_Response",
+      "fields": [
+        {
+          "name": "pose",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "interfaces/srv/MoveRobot_Response",
+      "hash_string": "RIHS01_4fc6a8ff8ead264331f2ec1ef76476c2521468aa285eafc6e38f0b0025146df9"
+    }
+  ]
+}
