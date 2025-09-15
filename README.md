@@ -198,7 +198,8 @@ int32[] partial_sequence
 
 ## 创建服务端
 见src/service_cpp/src/server.cpp
-
+## 创建客户端
+见src/service_cpp/src/client.cpp
 
 
  
