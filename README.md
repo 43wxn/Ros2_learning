@@ -158,7 +158,47 @@ std::shared_ptr< SubscriptionT > rclcpp::Node::create_subscription 	( 	const std
 
 `qos` 消息队列深度 一般为10
 
-`call_back()` 回调函数和发布者的回调函数一样 必须是可调用的对象 一定是一个对象！对象！对象！ 
+`call_back()` 回调函数和发布者的回调函数一样 必须是可调用的对象 一定是一个对象！对象！对象！
+
+# 接口
+>话题、服务和动作(Action)都支持自定义接口，每一种通信方式所适用的场景各不相同，所定义的接口也被分为话题接口、服务接口、动作接口三种。
+# 话题接口  格式：xxx.msg
+`int64 num`
+# 服务接口  格式：xxx.srv
+```
+int64 a
+int64 b
+---
+int64 sum
+```
+# 动作接口   格式：xxx.action
+```
+int32 order
+---
+int32[] sequence
+---
+int32[] partial_sequence
+```
+## 导入消息接口
+```cpp
+1.在CMakeList.txt中首先find_packages,再进行ament_target_dependencies
+
+2.在package.xml中使用depend标签导入
+
+3.在源代码中include "消息功能包/xxx/xxx.hpp“
+```
+
+## CLI 指令
+1.` ros2 interface package <接口功能包名字> ` 
+
+# 服务端/客户端
+## CLI命令
+1. `ros2 service list`
+2. `ros2 service type <服务名称>    查看服务接口类型`
+
+## 创建服务端
+见src/service_cpp/src/server.cpp
+
 
 
  
