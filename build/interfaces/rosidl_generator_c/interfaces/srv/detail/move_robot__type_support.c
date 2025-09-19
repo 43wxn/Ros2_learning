@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "interfaces/srv/detail/move_robot__type_support.h"
-#include "interfaces/srv/detail/move_robot__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "interfaces/srv/detail/move_robot__functions.h"
+#include "interfaces/srv/detail/move_robot__struct.h"
+#include "interfaces/srv/detail/move_robot__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

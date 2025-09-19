@@ -78,7 +78,7 @@ interfaces__msg__RobotStatus__get_type_description(
 
 static char toplevel_type_raw_source[] =
   "uint32 STATUS_MOVEING = 1\n"
-  "uint32 STATUS_STOP = 1\n"
+  "uint32 STATUS_STOP = 2\n"
   "uint32  status\n"
   "float32 pose";
 

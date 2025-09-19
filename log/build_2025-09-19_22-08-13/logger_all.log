@@ -1,0 +1,413 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.059s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e2db2b1b5c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e2db2cef8c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e2db2cef8c0>>)
+[0.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.085s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.085s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tian/ROS_ws'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo1_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo1_cpp) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo1_cpp) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo1_cpp) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo1_cpp) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo1_cpp) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo1_cpp) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo1_cpp) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo1_cpp) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo1_cpp' with type 'ros.ament_cmake' and name 'demo1_cpp'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.103s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.104s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_control) by extension 'ros'
+[0.104s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_control' with type 'ros.ament_cmake' and name 'robot_control'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_cpp) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_cpp' with type 'ros.ament_cmake' and name 'service_cpp'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'ros'
+[0.105s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_cpp' with type 'ros.ament_cmake' and name 'topic_cpp'
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.116s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/tian/ROS_ws/install
+[0.117s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'demo1_cpp' build argument 'cmake_args' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'demo1_cpp' build argument 'cmake_target' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'demo1_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'demo1_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'demo1_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'demo1_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'demo1_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'demo1_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'demo1_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.139s] DEBUG:colcon.colcon_core.verb:Building package 'demo1_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tian/ROS_ws/build/demo1_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tian/ROS_ws/install/demo1_cpp', 'merge_install': False, 'path': '/home/tian/ROS_ws/src/demo1_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.140s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tian/ROS_ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tian/ROS_ws/install/interfaces', 'merge_install': False, 'path': '/home/tian/ROS_ws/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'service_cpp' build argument 'cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'service_cpp' build argument 'cmake_target' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'service_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'service_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'service_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'service_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'service_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'service_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'service_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.140s] DEBUG:colcon.colcon_core.verb:Building package 'service_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tian/ROS_ws/build/service_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tian/ROS_ws/install/service_cpp', 'merge_install': False, 'path': '/home/tian/ROS_ws/src/service_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_target' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.140s] DEBUG:colcon.colcon_core.verb:Building package 'topic_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tian/ROS_ws/build/topic_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tian/ROS_ws/install/topic_cpp', 'merge_install': False, 'path': '/home/tian/ROS_ws/src/topic_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.140s] Level 5:colcon.colcon_core.verb:set package 'robot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.140s] DEBUG:colcon.colcon_core.verb:Building package 'robot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tian/ROS_ws/build/robot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tian/ROS_ws/install/robot_control', 'merge_install': False, 'path': '/home/tian/ROS_ws/src/robot_control', 'symlink_install': False, 'test_result_base': None}
+[0.140s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.141s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.141s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tian/ROS_ws/src/interfaces' with build type 'ament_cmake'
+[0.141s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tian/ROS_ws/src/interfaces'
+[0.143s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.145s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tian/ROS_ws/src/demo1_cpp' with build type 'ament_cmake'
+[0.145s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tian/ROS_ws/src/demo1_cpp'
+[0.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.148s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tian/ROS_ws/src/service_cpp' with build type 'ament_cmake'
+[0.149s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tian/ROS_ws/src/service_cpp'
+[0.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.151s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tian/ROS_ws/src/topic_cpp' with build type 'ament_cmake'
+[0.151s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tian/ROS_ws/src/topic_cpp'
+[0.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.152s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/interfaces -- -j16 -l16
+[0.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/demo1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/demo1_cpp -- -j16 -l16
+[0.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/service_cpp -- -j16 -l16
+[0.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/topic_cpp -- -j16 -l16
+[0.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/service_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/service_cpp -- -j16 -l16
+[0.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/service_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/service_cpp
+[0.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/demo1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/demo1_cpp -- -j16 -l16
+[0.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/demo1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/demo1_cpp
+[0.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/topic_cpp -- -j16 -l16
+[0.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/topic_cpp
+[0.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo1_cpp)
+[0.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/demo1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/demo1_cpp
+[0.246s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp' for CMake module files
+[0.246s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp' for CMake config files
+[0.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo1_cpp', 'cmake_prefix_path')
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/hook/cmake_prefix_path.ps1'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/hook/cmake_prefix_path.dsv'
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/hook/cmake_prefix_path.sh'
+[0.248s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/lib'
+[0.248s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/bin'
+[0.248s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/lib/pkgconfig/demo1_cpp.pc'
+[0.249s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/lib/python3.12/site-packages'
+[0.249s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/bin'
+[0.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.ps1'
+[0.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.dsv'
+[0.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.sh'
+[0.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.bash'
+[0.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.zsh'
+[0.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/demo1_cpp/share/colcon-core/packages/demo1_cpp)
+[0.252s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo1_cpp)
+[0.252s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp' for CMake module files
+[0.253s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp' for CMake config files
+[0.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo1_cpp', 'cmake_prefix_path')
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/hook/cmake_prefix_path.ps1'
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/hook/cmake_prefix_path.dsv'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/hook/cmake_prefix_path.sh'
+[0.255s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/lib'
+[0.255s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/bin'
+[0.255s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/lib/pkgconfig/demo1_cpp.pc'
+[0.256s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/lib/python3.12/site-packages'
+[0.256s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/demo1_cpp/bin'
+[0.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.sh'
+[0.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.bash'
+[0.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.zsh'
+[0.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/demo1_cpp/share/colcon-core/packages/demo1_cpp)
+[0.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_cpp)
+[0.260s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp' for CMake module files
+[0.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/service_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/service_cpp
+[0.261s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp' for CMake config files
+[0.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_cpp', 'cmake_prefix_path')
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/hook/cmake_prefix_path.ps1'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/hook/cmake_prefix_path.dsv'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/hook/cmake_prefix_path.sh'
+[0.262s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/lib'
+[0.262s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/bin'
+[0.262s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/lib/pkgconfig/service_cpp.pc'
+[0.263s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/lib/python3.12/site-packages'
+[0.263s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/bin'
+[0.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.ps1'
+[0.263s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.dsv'
+[0.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.sh'
+[0.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.bash'
+[0.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.zsh'
+[0.264s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/service_cpp/share/colcon-core/packages/service_cpp)
+[0.264s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(service_cpp)
+[0.265s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp' for CMake module files
+[0.265s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp' for CMake config files
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('service_cpp', 'cmake_prefix_path')
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/hook/cmake_prefix_path.ps1'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/hook/cmake_prefix_path.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/hook/cmake_prefix_path.sh'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/lib'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/bin'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/lib/pkgconfig/service_cpp.pc'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/lib/python3.12/site-packages'
+[0.266s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/service_cpp/bin'
+[0.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.ps1'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.bash'
+[0.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/service_cpp/share/service_cpp/package.zsh'
+[0.268s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/service_cpp/share/colcon-core/packages/service_cpp)
+[0.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_cpp)
+[0.269s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp' for CMake module files
+[0.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/topic_cpp
+[0.270s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp' for CMake config files
+[0.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_cpp', 'cmake_prefix_path')
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.ps1'
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.dsv'
+[0.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.sh'
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/lib'
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/bin'
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/lib/pkgconfig/topic_cpp.pc'
+[0.271s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/lib/python3.12/site-packages'
+[0.272s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/bin'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.ps1'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.dsv'
+[0.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.sh'
+[0.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.bash'
+[0.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.zsh'
+[0.273s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/topic_cpp/share/colcon-core/packages/topic_cpp)
+[0.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_cpp)
+[0.274s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp' for CMake module files
+[0.274s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp' for CMake config files
+[0.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_cpp', 'cmake_prefix_path')
+[0.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.ps1'
+[0.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.dsv'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.sh'
+[0.275s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/lib'
+[0.275s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/bin'
+[0.275s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/lib/pkgconfig/topic_cpp.pc'
+[0.275s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/lib/python3.12/site-packages'
+[0.275s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/topic_cpp/bin'
+[0.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.ps1'
+[0.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.dsv'
+[0.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.sh'
+[0.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.bash'
+[0.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/topic_cpp/share/topic_cpp/package.zsh'
+[0.277s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/topic_cpp/share/colcon-core/packages/topic_cpp)
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/interfaces -- -j16 -l16
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/interfaces
+[0.554s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[0.555s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces' for CMake module files
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/interfaces
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces' for CMake config files
+[0.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/lib'
+[0.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/bin'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/lib/python3.12/site-packages'
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/bin'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.sh'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.bash'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.zsh'
+[0.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[0.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces' for CMake module files
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces' for CMake config files
+[0.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/lib'
+[0.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/bin'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/lib/python3.12/site-packages'
+[0.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/interfaces/bin'
+[0.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.ps1'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.sh'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.bash'
+[0.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/interfaces/share/interfaces/package.zsh'
+[0.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[0.567s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tian/ROS_ws/src/robot_control' with build type 'ament_cmake'
+[0.567s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tian/ROS_ws/src/robot_control'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/robot_control': CMAKE_PREFIX_PATH=/home/tian/ROS_ws/install/interfaces:/home/tian/ROS_ws/install/topic_cpp:/home/tian/ROS_ws/install/service_cpp:/home/tian/ROS_ws/install/robot_control:/home/tian/ROS_ws/install/demo1_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/robot_control -- -j16 -l16
+[6.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/tian/ROS_ws/install/interfaces:/home/tian/ROS_ws/install/topic_cpp:/home/tian/ROS_ws/install/service_cpp:/home/tian/ROS_ws/install/robot_control:/home/tian/ROS_ws/install/demo1_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/robot_control -- -j16 -l16
+[6.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tian/ROS_ws/build/robot_control': CMAKE_PREFIX_PATH=/home/tian/ROS_ws/install/interfaces:/home/tian/ROS_ws/install/topic_cpp:/home/tian/ROS_ws/install/service_cpp:/home/tian/ROS_ws/install/robot_control:/home/tian/ROS_ws/install/demo1_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/robot_control
+[6.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[6.315s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control' for CMake module files
+[6.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tian/ROS_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/tian/ROS_ws/install/interfaces:/home/tian/ROS_ws/install/topic_cpp:/home/tian/ROS_ws/install/service_cpp:/home/tian/ROS_ws/install/robot_control:/home/tian/ROS_ws/install/demo1_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/robot_control
+[6.316s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control' for CMake config files
+[6.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'cmake_prefix_path')
+[6.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.ps1'
+[6.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.dsv'
+[6.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.sh'
+[6.317s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/lib'
+[6.317s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/bin'
+[6.317s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/lib/pkgconfig/robot_control.pc'
+[6.318s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/lib/python3.12/site-packages'
+[6.318s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/bin'
+[6.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.ps1'
+[6.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.dsv'
+[6.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.sh'
+[6.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.bash'
+[6.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.zsh'
+[6.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/robot_control/share/colcon-core/packages/robot_control)
+[6.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_control)
+[6.320s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control' for CMake module files
+[6.320s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control' for CMake config files
+[6.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_control', 'cmake_prefix_path')
+[6.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.ps1'
+[6.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tian/ROS_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.dsv'
+[6.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tian/ROS_ws/install/robot_control/share/robot_control/hook/cmake_prefix_path.sh'
+[6.321s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/lib'
+[6.321s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/bin'
+[6.321s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/lib/pkgconfig/robot_control.pc'
+[6.321s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/lib/python3.12/site-packages'
+[6.321s] Level 1:colcon.colcon_core.environment:checking '/home/tian/ROS_ws/install/robot_control/bin'
+[6.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.ps1'
+[6.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.dsv'
+[6.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.sh'
+[6.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.bash'
+[6.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/tian/ROS_ws/install/robot_control/share/robot_control/package.zsh'
+[6.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tian/ROS_ws/install/robot_control/share/colcon-core/packages/robot_control)
+[6.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.323s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.329s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.343s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tian/ROS_ws/install/local_setup.ps1'
+[6.346s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tian/ROS_ws/install/_local_setup_util_ps1.py'
+[6.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tian/ROS_ws/install/setup.ps1'
+[6.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tian/ROS_ws/install/local_setup.sh'
+[6.348s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tian/ROS_ws/install/_local_setup_util_sh.py'
+[6.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tian/ROS_ws/install/setup.sh'
+[6.349s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tian/ROS_ws/install/local_setup.bash'
+[6.349s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tian/ROS_ws/install/setup.bash'
+[6.350s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tian/ROS_ws/install/local_setup.zsh'
+[6.350s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tian/ROS_ws/install/setup.zsh'

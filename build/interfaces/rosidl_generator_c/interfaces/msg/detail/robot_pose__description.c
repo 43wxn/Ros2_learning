@@ -23,9 +23,9 @@ interfaces__msg__RobotPose__get_type_hash(
 #include <string.h>
 
 // Include directives for referenced types
+#include "geometry_msgs/msg/detail/point__functions.h"
 #include "geometry_msgs/msg/detail/pose__functions.h"
 #include "geometry_msgs/msg/detail/quaternion__functions.h"
-#include "geometry_msgs/msg/detail/point__functions.h"
 
 // Hashes for external referenced types
 #ifndef NDEBUG
@@ -125,7 +125,10 @@ static char toplevel_type_raw_source[] =
   "uint32 STATUS_MOVEING = 1\n"
   "uint32 STATUS_STOP = 2\n"
   "uint32  status\n"
-  "geometry_msgs/Pose pose";
+  "geometry_msgs/Pose pose\n"
+  "\n"
+  "#\\xe5\\x89\\x8d\\xe4\\xb8\\xa4\\xe8\\xa1\\x8c\\xe6\\x98\\xaf\\xe5\\xb8\\xb8\\xe9\\x87\\x8f\\xe5\\xae\\x9a\\xe4\\xb9\\x89 \\xe7\\x9b\\xb8\\xe5\\xbd\\x93\\xe4\\xba\\x8e\\xe5\\xae\\x9a\\xe4\\xb9\\x89\\xe4\\xba\\x86\\xe4\\xb8\\x80\\xe4\\xb8\\xaa\\xe5\\xb8\\xb8\\xe9\\x87\\x8fSTAUS_MOVEING\\xe5\\x80\\xbc\\xe4\\xb8\\xba1\\xef\\xbc\\x8c\\xe5\\x90\\x8e\\xe4\\xb8\\xa4\\xe8\\xa1\\x8c\\xe6\\x98\\xaf\\xe5\\x8f\\x98\\xe9\\x87\\x8f\\xe5\\xae\\x9a\\xe4\\xb9\\x89\n"
+  "#\\xe5\\x9c\\xa8\\xe4\\xbd\\xbf\\xe7\\x94\\xa8\\xe7\\x9a\\x84\\xe6\\x97\\xb6\\xe5\\x80\\x99\\xe5\\x8f\\xaf\\xe4\\xbb\\xa5\\xe7\\x9b\\xb4\\xe6\\x8e\\xa5\\xe4\\xbd\\xbf\\xe7\\x94\\xa8STATUS_MOVEING\\xe4\\xbb\\xa3\\xe6\\x9b\\xbf1 ...";
 
 static char msg_encoding[] = "msg";
 
@@ -139,7 +142,7 @@ interfaces__msg__RobotPose__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {interfaces__msg__RobotPose__TYPE_NAME, 24, 24},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 87, 87},
+    {toplevel_type_raw_source, 169, 169},
   };
   return &source;
 }

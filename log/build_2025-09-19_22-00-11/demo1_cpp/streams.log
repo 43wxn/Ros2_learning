@@ -1,0 +1,67 @@
+[0.009s] Invoking command in '/home/tian/ROS_ws/build/demo1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/demo1_cpp -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/demo1_cpp
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.186s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.275s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.387s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.463s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.488s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.496s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.574s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.576s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.650s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.665s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.683s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.736s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.812s] -- Configured cppcheck include dirs: 
+[0.812s] -- Configured cppcheck exclude dirs and/or files: 
+[0.813s] -- Added test 'lint_cmake' to check CMake code style
+[0.813s] -- Added test 'uncrustify' to check C / C++ code style
+[0.813s] -- Configured uncrustify additional arguments: 
+[0.814s] -- Added test 'xmllint' to check XML markup files
+[0.815s] -- Configuring done (0.8s)
+[0.824s] -- Generating done (0.0s)
+[0.827s] -- Build files have been written to: /home/tian/ROS_ws/build/demo1_cpp
+[0.837s] Invoked command in '/home/tian/ROS_ws/build/demo1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/demo1_cpp -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/demo1_cpp
+[0.838s] Invoking command in '/home/tian/ROS_ws/build/demo1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/demo1_cpp -- -j16 -l16
+[0.878s] [ 50%] [32mBuilding CXX object CMakeFiles/node_oop_01.dir/src/node_oop_01.cpp.o[0m
+[0.878s] [ 50%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o[0m
+[3.750s] [ 75%] [32m[1mLinking CXX executable node_oop_01[0m
+[3.811s] [100%] [32m[1mLinking CXX executable node_01[0m
+[3.925s] [100%] Built target node_oop_01
+[3.986s] [100%] Built target node_01
+[4.000s] Invoked command in '/home/tian/ROS_ws/build/demo1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tian/ROS_ws/build/demo1_cpp -- -j16 -l16
+[4.014s] Invoking command in '/home/tian/ROS_ws/build/demo1_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/demo1_cpp
+[4.025s] -- Install configuration: ""
+[4.025s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/ament_index/resource_index/package_run_dependencies/demo1_cpp
+[4.026s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/ament_index/resource_index/parent_prefix_path/demo1_cpp
+[4.026s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/environment/ament_prefix_path.sh
+[4.026s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/environment/ament_prefix_path.dsv
+[4.026s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/environment/path.sh
+[4.026s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/environment/path.dsv
+[4.026s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/local_setup.bash
+[4.027s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/local_setup.sh
+[4.027s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/local_setup.zsh
+[4.027s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/local_setup.dsv
+[4.027s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.dsv
+[4.028s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/ament_index/resource_index/packages/demo1_cpp
+[4.028s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/cmake/demo1_cppConfig.cmake
+[4.028s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/cmake/demo1_cppConfig-version.cmake
+[4.028s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/share/demo1_cpp/package.xml
+[4.028s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/lib/demo1_cpp/node_01
+[4.029s] -- Set non-toolchain portion of runtime path of "/home/tian/ROS_ws/install/demo1_cpp/lib/demo1_cpp/node_01" to ""
+[4.029s] -- Installing: /home/tian/ROS_ws/install/demo1_cpp/lib/demo1_cpp/node_oop_01
+[4.030s] -- Set non-toolchain portion of runtime path of "/home/tian/ROS_ws/install/demo1_cpp/lib/demo1_cpp/node_oop_01" to ""
+[4.034s] Invoked command in '/home/tian/ROS_ws/build/demo1_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tian/ROS_ws/build/demo1_cpp

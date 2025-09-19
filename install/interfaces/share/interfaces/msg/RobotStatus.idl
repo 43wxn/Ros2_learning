@@ -7,7 +7,7 @@ module interfaces {
   module msg {
     module RobotStatus_Constants {
       const uint32 STATUS_MOVEING = 1;
-      const uint32 STATUS_STOP = 1;
+      const uint32 STATUS_STOP = 2;
     };
     struct RobotStatus {
       uint32 status;

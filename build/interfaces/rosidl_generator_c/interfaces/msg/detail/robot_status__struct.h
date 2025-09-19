@@ -28,7 +28,7 @@ enum
 /// Constant 'STATUS_STOP'.
 enum
 {
-  interfaces__msg__RobotStatus__STATUS_STOP = 1ul
+  interfaces__msg__RobotStatus__STATUS_STOP = 2ul
 };
 
 /// Struct defined in msg/RobotStatus in the package interfaces.

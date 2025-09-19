@@ -83,7 +83,7 @@ struct RobotStatus_
   static constexpr uint32_t STATUS_MOVEING =
     1u;
   static constexpr uint32_t STATUS_STOP =
-    1u;
+    2u;
 
   // pointer types
   using RawPtr =

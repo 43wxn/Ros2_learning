@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "interfaces/msg/detail/robot_pose__type_support.h"
-#include "interfaces/msg/detail/robot_pose__struct.h"
 #include "interfaces/msg/detail/robot_pose__functions.h"
+#include "interfaces/msg/detail/robot_pose__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus

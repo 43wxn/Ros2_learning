@@ -7,10 +7,12 @@ class TopicSubscrib : public rclcpp::Node {
         TopicSubscrib(std::string name) : rclcpp::Node(name) {
             RCLCPP_INFO_STREAM(this->get_logger(), name << " 创建订阅者节点成功");
             subscriber = this->create_subscription<std_msgs::msg::String>(
-                "command", 10,
+                "command", 
+                10,
                 [this](const std_msgs::msg::String::SharedPtr msg) {
                   this->call_back(msg);
-                });
+                }
+            );
         }
 
     private:
