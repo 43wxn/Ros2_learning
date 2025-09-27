@@ -1,0 +1,21 @@
+[0.008s] Invoking command in '/home/tian/ROS_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/cpp_parameters
+[0.022s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.197s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.197s]   By not providing "Findrclpp.cmake" in CMAKE_MODULE_PATH this project has
+[0.197s]   asked CMake to find a package configuration file provided by "rclpp", but
+[0.197s]   CMake did not find one.
+[0.197s] 
+[0.197s]   Could not find a package configuration file provided by "rclpp" with any of
+[0.197s]   the following names:
+[0.197s] 
+[0.197s]     rclppConfig.cmake
+[0.198s]     rclpp-config.cmake
+[0.198s] 
+[0.198s]   Add the installation prefix of "rclpp" to CMAKE_PREFIX_PATH or set
+[0.198s]   "rclpp_DIR" to a directory containing one of the above files.  If "rclpp"
+[0.198s]   provides a separate development package or SDK, be sure it has been
+[0.198s]   installed.
+[0.198s] 
+[0.198s] [0m
+[0.198s] -- Configuring incomplete, errors occurred!
+[0.200s] Invoked command in '/home/tian/ROS_ws/build/cpp_parameters' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/cpp_parameters

@@ -1,0 +1,34 @@
+[0.009s] Invoking command in '/home/tian/ROS_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/cpp_parameters
+[0.110s] -- The C compiler identification is GNU 13.3.0
+[0.205s] -- The CXX compiler identification is GNU 13.3.0
+[0.233s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.390s] -- Detecting C compile features
+[0.390s] -- Detecting C compile features - done
+[0.404s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.564s] -- Detecting CXX compile features
+[0.565s] -- Detecting CXX compile features - done
+[0.571s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.750s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.879s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.879s]   By not providing "Findrclpp.cmake" in CMAKE_MODULE_PATH this project has
+[0.879s]   asked CMake to find a package configuration file provided by "rclpp", but
+[0.879s]   CMake did not find one.
+[0.879s] 
+[0.879s]   Could not find a package configuration file provided by "rclpp" with any of
+[0.879s]   the following names:
+[0.880s] 
+[0.880s]     rclppConfig.cmake
+[0.880s]     rclpp-config.cmake
+[0.880s] 
+[0.880s]   Add the installation prefix of "rclpp" to CMAKE_PREFIX_PATH or set
+[0.880s]   "rclpp_DIR" to a directory containing one of the above files.  If "rclpp"
+[0.880s]   provides a separate development package or SDK, be sure it has been
+[0.880s]   installed.
+[0.880s] 
+[0.880s] [0m
+[0.880s] -- Configuring incomplete, errors occurred!
+[0.892s] Invoked command in '/home/tian/ROS_ws/build/cpp_parameters' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tian/ROS_ws/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/home/tian/ROS_ws/install/cpp_parameters

@@ -1,3 +1,12 @@
 {
-    "cmake.sourceDirectory": "/home/tian/ROS_ws/ros2_basis"
+    "cmake.sourceDirectory": "/home/tian/ROS_ws/ros2_basis",
+    "ros.distro": "jazzy",
+    "python.autoComplete.extraPaths": [
+        "/home/tian/ROS_ws/install/interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tian/ROS_ws/install/interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
 }

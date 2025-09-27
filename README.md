@@ -216,5 +216,23 @@ int32[] partial_sequence
 
 `ros2 interface show <消息包名>/{msg,srv,action}/<消息名称>`    查看某一个消息内容 其中的<消息名称>就是.msg/.srv/.action文件的文件名字
 
+# 参数通信
+## 常用CLI
+`1.ros2 param list   查看所有节点的参数列表`
+
+`2.ros2 param describe <node_name> <param_name>   详细查看一个参数的信息`
+
+`3.ros2 param get <node_name> <param_name>    查看一个参数的值`
+
+`4.ros2 param set <node_name> <parameter_name> <value>    设置一个参数的值`
+
+`5.ros2 param dump <node_name>   保存参数，这会保存成一个<node_name>.yaml文件`
+
+`6.ros2 param load  <node_name> <node_name.yaml（路径要正确）>    加载参数`
+
+`ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>   启动节点的时间就直接加载参数`
+
+注意：read-only的参数只有在节点启动的时候会被设置 在节点启动后无法被重新设置
+
  
 
